@@ -18,8 +18,8 @@
 $ErrorActionPreference = 'Stop'
 
 # ============ 由 SAi 產生嗰陣填（pin 死，全部喺頂，唔好散落）============
-$Pin_BusRepoSha    = '3950fb0d5a1f49db942ab5d840caced56b030ef2'    # sai-windows-worker-bus 嘅 commit SHA
-$Pin_SrcZipSha256  = '4441ac666f923e6f18b47017eed555278362f89ecb89449679a4981647a65819'  # 上面個 commit 嘅 zipball SHA-256（產生嗰陣即拉即計）
+$Pin_BusRepoSha    = '9c331311002156773ee4c578d2075ab9c6f5d015'    # sai-windows-worker-bus 嘅 commit SHA
+$Pin_SrcZipSha256  = 'd75a43b272884152066902e6b51998e4d338eb2e2def7e3a6349055a9900dc40'  # 上面個 commit 嘅 zipball SHA-256（產生嗰陣即拉即計）
 $Pin_PythonUrl     = 'https://www.python.org/ftp/python/3.14.7/python-3.14.7-embed-amd64.zip'      # Python embeddable amd64 zip（官方 python.org）
 $Pin_PythonSha256  = 'd297e5ff019966817ad8502465176139f2d3d840fa4ed84b13bed399a6ab1f15'
 $Pin_TrialUrl      = 'https://raw.githubusercontent.com/samhui6688-spec/sai-windows-worker-bootstrap/7dbdcdac3c22c2d7667e90357df5198d85b9f2ce/bootstrap/trial-1.txt'       # 白名單內公開小檔（raw.githubusercontent.com），試驗任務用

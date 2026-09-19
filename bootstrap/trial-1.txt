@@ -1,0 +1,4 @@
+SAi Windows Worker trial file (trial-1)
+repo: samhui6688-spec/sai-windows-worker-bootstrap
+date: 2026-09-20
+purpose: bootstrap trial download + sha256 verification
